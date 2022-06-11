@@ -29647,7 +29647,7 @@ section.u-palette-3-base:before,
 .u-palette-3-base>.u-inner-container-layout:before,
 .u-container-layout.u-container-layout.u-palette-3-base:before,
 .u-table-alt-palette-3-base tr:nth-child(even) {
-    color: #111111;
+    color: white;
     background-color: #f1c50e;
 }
 
