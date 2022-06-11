@@ -978,12 +978,22 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 2002px;
+  }
+
   .u-section-3 .u-text-1 {
     font-size: 2.25rem;
   }
 
   .u-section-3 .u-list-1 {
-    width: 340px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-3 .u-repeater-1 {
+    min-height: 1684px;
   }
 
   .u-section-3 .u-container-layout-1 {
