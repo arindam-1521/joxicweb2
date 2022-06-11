@@ -535,7 +535,7 @@
      font-size: 1.125rem;
      text-transform: uppercase;
      letter-spacing: 2px;
-     background-image: linear-gradient(#db545a, #adcce9);
+     background-image: linear-gradient(45deg, #de23df, #fcaf49);
      margin: 34px auto 0 0;
      padding: 17px 38px 18px 37px;
  }
