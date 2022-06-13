@@ -7,11 +7,12 @@
     <script class="u-script" type="text/javascript" src="/static/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="/static/nicepage.js" defer=""></script>
     <link rel="icon" type="image/x-icon" href="/static/images/success.ico">
+    <link rel="stylesheet" href="/static/loader5.css">
 
 </head>
 
-<body class="u-body u-xl-mode">
-    <%- include("preloader") -%>
+<body class="u-body u-xl-mode" style=" background: rgb(0, 170, 238)">
+    <%- include("preloader5") -%>
         <div class="mostam" style="opacity:0">
             <%- include("header") -%>
                 <section class="u-clearfix u-image u-section-1" id="carousel_498f" data-image-width="1980" data-image-height="1457">
@@ -35,10 +36,12 @@
         <script>
             let prel = document.querySelector(".lolo");
             let mostam = document.querySelector(".mostam");
+            let bod = document.querySelector("body")
             window.addEventListener("load", () => {
                 setTimeout(() => {
                     prel.style.display = "none";
                     mostam.style.opacity = 1;
+                    bod.style.background = "white"
                 }, 0)
             })
         </script>
