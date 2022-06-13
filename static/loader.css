@@ -9,7 +9,7 @@ html {
     width: 100vw;
     height: 100vh;
     position: absolute;
-    top: 160px;
+    top: 180px;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: auto;
