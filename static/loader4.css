@@ -22,7 +22,8 @@ body {
     transform: translate(-50%, -50%);
     width: 50px;
     height: 10px;
-    background: #3498DB;
+    background: #ffffff;
+    /* background: #3498DB; */
     border-radius: 5px;
     -webkit-animation: load 1.8s ease-in-out infinite;
     animation: load 1.8s ease-in-out infinite;
@@ -43,13 +44,15 @@ body {
     top: -20px;
     left: 10px;
     width: 40px;
-    background: #EF4836;
+    background: #ffffff;
+    /* background: #EF4836; */
 }
 
 .lolo:after {
     bottom: -20px;
     width: 35px;
-    background: #F5AB35;
+    background: #ffffff;
+    /* background: #F5AB35; */
 }
 
 @-webkit-keyframes load {
