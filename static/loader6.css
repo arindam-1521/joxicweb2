@@ -6,7 +6,10 @@
     align-items: center; */
     position: absolute;
     top: 44vh;
-    left: 40vw;
+    height: 100vh;
+    width: 100vw;
+    /* left: 40vw; */
+    margin: 0 auto;
 }
 
 .dank-ass-loader {

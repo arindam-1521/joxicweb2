@@ -6,14 +6,15 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
 }
 
 .lolo ul {
     position: absolute;
-    left: 48vw;
-    top: 36vh;
+    /* left: 48vw;
+    top: 36vh; */
     display: inline-block;
     text-indent: 2.8em;
     list-style-type: none;

@@ -18,7 +18,7 @@ body {
 .lolo {
     position: absolute;
     top: 50vh;
-    left: 42vw;
+    left: 50vw;
     transform: translate(-50%, -50%);
     width: 50px;
     height: 10px;
