@@ -31,17 +31,20 @@ html {
 }
 
 .dot-3 {
-    background-color: #f74d75;
+    /* background-color: #f74d75; */
+    background-color: #ffffff;
     animation: dot-3-move 2s ease infinite, index 6s ease infinite;
 }
 
 .dot-2 {
-    background-color: #10beae;
+    /* background-color: #10beae; */
+    background-color: #ffffff;
     animation: dot-2-move 2s ease infinite, index 6s -4s ease infinite;
 }
 
 .dot-1 {
-    background-color: #ffe386;
+    /* background-color: #ffe386; */
+    background-color: #ffffff;
     animation: dot-1-move 2s ease infinite, index 6s -2s ease infinite;
 }
 
