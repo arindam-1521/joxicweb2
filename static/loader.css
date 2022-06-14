@@ -2,7 +2,8 @@ body,
 html {
     width: 100vw;
     height: 100vh;
-    background-color: #f8f4d5;
+    /* background-color: #f8f4d5; */
+    background-color: #16c82e;
 }
 
 .lolo {
