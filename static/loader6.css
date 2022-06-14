@@ -29,7 +29,7 @@
     border-bottom: 21.6px solid #ffffff;
     -webkit-animation: blink 1s infinite;
     animation: blink 1s infinite;
-    filter: drop-shadow(0 0 18px #ffffff);
+    /* filter: drop-shadow(0 0 18px #ffffff); */
 }
 
 .arrow.down {
