@@ -7,27 +7,43 @@
     <script class="u-script" type="text/javascript" src="/static/jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="/static/nicepage.js" defer=""></script>
     <link rel="icon" type="image/x-icon" href="/static/images/error1.ico">
+    <link rel="stylesheet" href="/static/loader5.css">
 </head>
 
-<body class="u-body u-xl-mode">
-    <%- include("header") -%>
-        <section class="u-clearfix u-image u-section-1" id="carousel_8abb" data-image-width="1980" data-image-height="1457">
-            <div class="u-clearfix u-sheet u-valign-middle-sm u-sheet-1">
-                <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="/static/images/jjjjjjjjjjjjjjjjjjj.png" alt="" data-image-width="383" data-image-height="383" data-animation-name="customAnimationIn" data-animation-duration="1250">
-                <img class="u-image u-image-contain u-image-default u-image-2" src="/static/images/gfg.png" alt="" data-image-width="812" data-image-height="320" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="500">
-                <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-3" alt="" data-image-width="791" data-image-height="681" src="/static/images/s.png" data-animation-name="customAnimationIn" data-animation-duration="1250">
-                <div class="u-align-left u-container-style u-group u-radius-50 u-shape-round u-white u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1000">
-                    <div class="u-container-layout u-valign-top-xs u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img src="/static/images/929416.png" alt=""></span>
-                        <h2 class="u-align-center u-custom-font u-heading-font u-text u-text-custom-color-13 u-text-1">Error!</h2>
-                        <p class="u-text u-text-default u-text-2"> Lectus sit amet est placerat in egestas. Integer eget aliquet nibh praesent tristique magna sit. Congue quisque egestas diam in arcu cursus.</p>
-                        <a href="https://nicepage.com/k/flask-html-templates" class="u-active-palette-3-base u-border-none u-btn u-btn-round u-button-style u-custom-color-13 u-custom-font u-font-montserrat u-hover-palette-3-base u-radius-50 u-btn-2">go back</a>
+<body class="u-body u-xl-mode" style="background: rgb(235, 35, 35)">
+    <%- include("preloader5") -%>
+        <div class="mostam" style="opacity:0">
+            <%- include("header") -%>
+                <section class="u-clearfix u-image u-section-1" id="carousel_8abb" data-image-width="1980" data-image-height="1457">
+                    <div class="u-clearfix u-sheet u-valign-middle-sm u-sheet-1">
+                        <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-1" src="/static/images/jjjjjjjjjjjjjjjjjjj.png" alt="" data-image-width="383" data-image-height="383" data-animation-name="customAnimationIn" data-animation-duration="1250">
+                        <img class="u-image u-image-contain u-image-default u-image-2" src="/static/images/gfg.png" alt="" data-image-width="812" data-image-height="320" data-animation-name="customAnimationIn" data-animation-duration="1000" data-animation-delay="500">
+                        <img class="u-image u-image-contain u-image-default u-preserve-proportions u-image-3" alt="" data-image-width="791" data-image-height="681" src="/static/images/s.png" data-animation-name="customAnimationIn" data-animation-duration="1250">
+                        <div class="u-align-left u-container-style u-group u-radius-50 u-shape-round u-white u-group-1" data-animation-name="customAnimationIn" data-animation-duration="1000">
+                            <div class="u-container-layout u-valign-top-xs u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img src="/static/images/929416.png" alt=""></span>
+                                <h2 class="u-align-center u-custom-font u-heading-font u-text u-text-custom-color-13 u-text-1">Error!</h2>
+                                <p class="u-text u-text-default u-text-2"> Lectus sit amet est placerat in egestas. Integer eget aliquet nibh praesent tristique magna sit. Congue quisque egestas diam in arcu cursus.</p>
+                                <a href="https://nicepage.com/k/flask-html-templates" class="u-active-palette-3-base u-border-none u-btn u-btn-round u-button-style u-custom-color-13 u-custom-font u-font-montserrat u-hover-palette-3-base u-radius-50 u-btn-2">go back</a>
+                            </div>
+                        </div>
+                        <img class="u-image u-image-contain u-image-default u-image-4" src="/static/images/gffgf.png" alt="" data-image-width="600" data-image-height="492" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-direction="" data-animation-delay="250">
+                        <img class="u-image u-image-contain u-image-default u-image-5" src="/static/images/fgfg5.png" alt="" data-image-width="623" data-image-height="536" data-animation-name="customAnimationIn" data-animation-duration="1250">
                     </div>
-                </div>
-                <img class="u-image u-image-contain u-image-default u-image-4" src="/static/images/gffgf.png" alt="" data-image-width="600" data-image-height="492" data-animation-name="customAnimationIn" data-animation-duration="1250" data-animation-direction="" data-animation-delay="250">
-                <img class="u-image u-image-contain u-image-default u-image-5" src="/static/images/fgfg5.png" alt="" data-image-width="623" data-image-height="536" data-animation-name="customAnimationIn" data-animation-duration="1250">
-            </div>
-        </section>
-        <%- include("footer") -%>
+                </section>
+                <%- include("footer") -%>
+        </div>
+        <script>
+            let prel = document.querySelector(".lolo");
+            let mostam = document.querySelector(".mostam");
+            let bod = document.querySelector("body")
+            window.addEventListener("load", () => {
+                setTimeout(() => {
+                    prel.style.display = "none";
+                    mostam.style.opacity = 1;
+                    bod.style.background = "white"
+                }, 0)
+            })
+        </script>
 </body>
 
 </html>
